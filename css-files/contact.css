@@ -70,10 +70,10 @@ header ul li a {
     .main{
         width: 100%;
         background-color: rgb(53, 53, 53);
-        min-height: auto;
         display: flex;
+        min-height: 120vh;
         padding: 50px 0;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         
         
