@@ -116,6 +116,21 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 37%, rgba(72,72,72,1) 90%);
         font-weight: lighter;
         font-size: 1rem;
     }
+
+    .resume{
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: orange;
+        
+        border-style: none;
+        
+        font-weight: bolder;
+    }
+    .resume:hover{
+        background-color: rgba(255, 166, 0, 0.681);
+    }
     
     @media screen and (max-width: 1000px) {
         .ham-menu{
