@@ -144,7 +144,7 @@ header ul li a {
         border-style: none;
         
     }   
-    .contact-box .msg{
+    .contact-box .message{
         width: 50%;
         height: 30vh;
         border-style: none;
@@ -180,7 +180,7 @@ header ul li a {
             transform: translateY(-8px) rotate(-45deg);
         }
         .main{
-            min-height: 120vh;
+            min-height: 180vh;
             padding: 50px 0;
             align-items: center;
         }
@@ -242,7 +242,7 @@ header ul li a {
             width: 100%;
             height: 30px;
         }
-        .contact-box .msg{
+        .contact-box .message{
             width: 100%;
             height: 30vh;
         }
