@@ -74,10 +74,10 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 37%, rgba(72,72,72,1) 90%);
     .main{
         width: 100%;
         
-        min-height: 120vh;
-        padding: 50px 0;
+        min-height: 100vh;
+       
         display: flex;
-        padding-top: 40px;
+        padding-top: 20px;
         padding-bottom: 40px;
         align-items: center;
         justify-content: center;
@@ -92,26 +92,38 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 37%, rgba(72,72,72,1) 90%);
     .img1{
         height: 400px;
         width: 300px;
-        align-self: center;
+        
     }
     .content{
         display: flex;
         flex-direction: column;
         text-align: center;
         
-        width: 80%;
-        justify-content: center;
+        width: 30%;
+        
         
         
     
     }
-    .content .about-me h1 {
+
+    .content-2{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        min-height: 80vh;
+        align-items: center;
+        justify-content: space-evenly;
+       
+
+    }
+
+    .content-2 .about-me h1 {
         padding: 20px;
         font-family: 'Poppins', sans-serif;
         
     }
 
-    .content .about-me p {
+    .content-2 .about-me p {
         font-family: 'Poppins', sans-serif;
         font-weight: lighter;
         font-size: 1rem;
@@ -133,6 +145,37 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 37%, rgba(72,72,72,1) 90%);
     }
     
     @media screen and (max-width: 1000px) {
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+            padding-top: 150px;
+            gap: 50px;
+            justify-content: center;
+            
+        }
+        .content{
+            width: 95%;
+            display: flex;
+            justify-content: center;
+
+        }
+        .content .img1{
+            align-self: center;
+            height: 300px;
+        width: 245px;
+        }
+        .content-2 {
+            width: 95%;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .about-me{
+            width: 80%;
+           height: 120%;
+           overflow: hidden;
+        }
+        
         .ham-menu{
             display: block;
         }
