@@ -134,20 +134,24 @@ header ul li a {
     .contact-box .name{
         width: 50%;
         height: 30px;
+        padding: 2px;
         
         border-style: none;
         
     }
+    
     .contact-box .email{
         width: 50%;
         height: 30px;
         border-style: none;
+        padding: 2px;
         
     }   
     .contact-box .message{
         width: 50%;
         height: 30vh;
         border-style: none;
+        padding: 2px;
        
         
     }
